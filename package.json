@@ -4,11 +4,13 @@
   "description": "Tailwind learning",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "tailwindcss ./build/css/styles.css --watch"
   },
   "author": "Ifegbesan Tanitoluwa",
   "license": "ISC",
   "devDependencies": {
+    "@tailwindcss/jit": "^0.1.18",
+    "postcss": "^8.4.22",
     "tailwindcss": "^3.3.1"
   }
 }
